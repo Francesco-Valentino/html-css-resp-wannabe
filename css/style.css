@@ -159,10 +159,17 @@ img {
 
     .why-us{
         background-color: #222222;
-        padding-top: 2rem;
+        padding-top: 3rem;
+        margin-bottom: 0;
     }
 
-    .why-us row{
-        align-items: center;
+    section.why-us div.col-right{
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+    }
+
+    .why-us div.col-left,
+    .why-us div.col-right{
+        width: 100%;
     }
  }
