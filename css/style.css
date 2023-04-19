@@ -133,3 +133,17 @@ img {
     width: 100%;
    }
  }
+
+ @media screen and (max-width: 480px){
+    .lessons .col{
+        width: 100%;
+    }
+    
+    .row{
+        flex-direction: column;
+    }
+
+    .lessons .col:first-child{
+        margin-bottom: 3rem;
+    }
+ }
